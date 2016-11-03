@@ -36,3 +36,7 @@ The API consists of a single endpoint which receives data when a patient uses th
     "id":22954
 }
 ````
+
+**Make lots of requests**
+
+     ab -p data.json -T application/json -c 350 -n 100000 http://localhost:3000/api/usages
