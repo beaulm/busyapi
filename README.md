@@ -3,6 +3,7 @@ A sample API server for use as an optimization subject.
 
 ##Setup
 *  Clone this repository
+*  Make sure a local Redis server is running
 *  Install dependencies `npm install`
 *  Start the server `npm start`
 
